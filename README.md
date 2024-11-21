@@ -1,43 +1,141 @@
-# Minecraft - Criatividade e Aventura
 
-![Imagem de Fundo Minecraft](https://png.pngtree.com/background/20230519/original/pngtree-huge-house-in-minecraft-picture-image_2650331.jpg)
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minecraft - Criatividade e Aventura</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <style>
+    /* Estilos do corpo */
+    body {
+      background-image: url('https://png.pngtree.com/background/20230519/original/pngtree-huge-house-in-minecraft-picture-image_2650331.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      margin: 0
+      font-family: 'Roboto', sans-serif;
+      color: white;
+    }
 
-Bem-vindo à página dedicada ao Minecraft! Este projeto é uma página simples em HTML e CSS sobre o jogo *Minecraft*, destacando suas características e oferecendo um botão de download para a versão oficial do jogo.
+    /* Estilos do cabeçalho */
+    header {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
 
-## Visão Geral
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
 
-A página foi criada para apresentar informações sobre o Minecraft, permitindo aos jogadores conhecer mais sobre o jogo, sua história e os recursos que ele oferece. A página inclui:
+    /* Seção principal */
+    main {
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.5);
+    }
 
-- *Informações sobre o jogo*
-- *Botão de download* para acessar a versão mais recente do Minecraft
-- *Curiosidades* sobre o jogo
-- *Imagem de fundo* inspirada no Minecraft
+    main h2 {
+      font-size: 2em;
+      color: #FFD700;
+      margin-top: 0;
+    }
 
-## Funcionalidades
+    main p {
+      font-size: 1.2em;
+      line-height: 1.6;
+    }
 
-- *Página Responsiva*: O layout se ajusta automaticamente para diferentes dispositivos e tamanhos de tela.
-- *Botão de Download*: Redireciona para o [site oficial do Minecraft](https://www.minecraft.net/pt-br/download) para fazer o download do jogo.
-- *Curiosidades*: Apresenta fatos interessantes sobre o Minecraft, como seu lançamento, popularidade e influências.
+    /* Botão de download */
+    .download-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 15px 30px;
+      background: #28a745;
+      color: white;
+      font-size: 1.2em;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: background 0.3s ease;
+    }
 
-## Como Usar
+    .download-button:hover {
+      background: #218838;
+    }
 
-1. *Baixe os arquivos*: Faça o download dos arquivos HTML, CSS e outros recursos relacionados.
-2. *Abra o arquivo index.html*: No seu navegador para ver o conteúdo.
-3. *Explore*: Aproveite as informações sobre o jogo e clique no botão para baixar.
+    /* Curiosidades */
+    .curiosidades {
+      margin-top: 40px;
+    }
 
-## Tecnologias Usadas
+    .curiosidades ul {
+      list-style: square;
+      margin-left: 20px;
+    }
 
-- *HTML5*: Para estruturar o conteúdo.
-- *CSS3*: Para estilizar e tornar a página responsiva.
-- *JavaScript*: Para interação simples, como uma mensagem no console.
-- *Google Fonts*: Usado para estilizar a fonte "Roboto".
+    .curiosidades li {
+      margin-bottom: 10px;
+      font-size: 1.1em;
+    }
 
-## Contribuições
+    /* Rodapé */
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      padding: 10px;
+      background: rgba(0, 0, 0, 0.6);
+    }
 
-Se você deseja contribuir, fique à vontade para abrir uma pull request. Todos são bem-vindos!
+    footer a {
+      color: #FFD700;
+      text-decoration: none;
+    }
 
-## Licença
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <h1>Minecraft - Explore Criatividade e Aventura</h1>
+  </header>
 
-Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
+  <!-- Conteúdo principal -->
+  <main>
+    <h2>Sobre o Jogo</h2>
+    <p>Minecraft é um jogo que permite criar, explorar e se aventurar em um mundo feito de blocos. Com sua criatividade, você pode construir cidades, enfrentar inimigos, descobrir biomas incríveis e muito mais. Seja sozinho ou com amigos, a diversão é garantida!</p>
 
----
+    <!-- Botão de download -->
+    <a href="https://www.minecraft.net/pt-br/download" class="download-button" target="_blank">Baixe Agora</a>
+
+    <!-- Curiosidades -->
+    <div class="curiosidades">
+      <h2>Curiosidades</h2>
+      <ul>
+        <li>O Minecraft foi lançado oficialmente em 2011.</li>
+        <li>Ele é o jogo mais vendido da história, com mais de 200 milhões de cópias.</li>
+        <li>O jogo possui versões para diversas plataformas, como PC, consoles e mobile.</li>
+        <li>Os biomas no jogo são inspirados em locais reais, como florestas, desertos e montanhas.</li>
+        <li>Há uma comunidade ativa que cria mods, mapas e texturas personalizadas.</li>
+      </ul>
+    </div>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>Para mais informações, visite o <a href="https://www.minecraft.net" target="_blank">site oficial do Minecraft</a>.</p>
+    <p>&copy; 2024 Minecraft Fan Page</p>
+  </footer>
+
+  <script>
+    // Exemplo de script: exibir uma mensagem no console
+    console.log("Página carregada com sucesso!");
+  </script>
+</body>
+</html>
