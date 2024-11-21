@@ -41,5 +41,3 @@ Se você deseja contribuir, fique à vontade para abrir uma pull request. Todos 
 Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
 
 ---
-
-Minecraft Fan Page - 2024
